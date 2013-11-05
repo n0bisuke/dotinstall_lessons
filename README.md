@@ -4,7 +4,6 @@
 
 完了レッスン
 -----
-
 - HTML入門
 (http://dotinstall.com/lessons/basic_html)
 - javascript入門
