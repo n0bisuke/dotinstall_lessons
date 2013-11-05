@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>hello1</p>
+	<p>hello2</p>
+	<p>hello3</p>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script>
+		var p = d3.select("body")
+			.selectAll('p');
+		
+		// p.text("hellloooo")
+		// 	.style({
+		// 		"font-size": "30px",
+		// 		"font-weight": "bold"
+		// 	});
+		p.text("hoge")
+			.style("font-size", function(){
+				return Math.floor(Math.random()*29) + "px";
+			})
+
+	</script>
+</body>
+</html>

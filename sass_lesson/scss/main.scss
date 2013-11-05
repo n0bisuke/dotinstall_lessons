@@ -1,0 +1,32 @@
+//変数も使えます．
+//データ型(数値,文字列,真偽,色,リスト)
+//足し算 +
+//引き算 -
+//かけ算 *
+//割り算 /
+
+$basefontsize: 21px;
+
+#main{
+	width: 90%;
+	p{
+		font-size: $basefontsize;
+		a{
+			/*pの文字サイズより2px小さい*/
+			font-size: $basefontsize - 2;
+		}
+	}
+	span{
+		/*pの文字サイズの倍*/
+		font-size: $basefontsize * 2;
+		li{
+			/*pの文字サイズより5px大きい*/
+			font-size: $basefontsize + 5;
+		}
+		a{
+			/*pの文字サイズの半分*/
+			font-size: $basefontsize / 2;
+		}
+
+	}
+}

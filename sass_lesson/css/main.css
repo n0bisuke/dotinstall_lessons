@@ -1,0 +1,23 @@
+@charset "UTF-8";
+#main {
+  width: 90%;
+}
+#main p {
+  font-size: 21px;
+}
+#main p a {
+  /*pの文字サイズより2px小さい*/
+  font-size: 19px;
+}
+#main span {
+  /*pの文字サイズの倍*/
+  font-size: 42px;
+}
+#main span li {
+  /*pの文字サイズより5px大きい*/
+  font-size: 26px;
+}
+#main span a {
+  /*pの文字サイズの半分*/
+  font-size: 10.5px;
+}

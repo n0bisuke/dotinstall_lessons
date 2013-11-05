@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>レース</title>
+    
+    <script src="./js/lib/enchant.js"></script>
+    <script src="./js/lib/jquery.js"></script>
+    <script src="./js/main.js"></script>
+    <style type="text/css">
+      body {
+        padding: 0;
+        margin:  0;
+      }
+      #controller {
+        position: absolute;
+        left: 1100px;
+        top:10px;
+      }
+
+      #info {
+        position: absolute;
+        left: 100px;
+        top: 650px;
+      }
+    </style>
+  </head>
+  <body>
+  <img src="./img/image_v1.png" />
+  
+  <div id="controller">
+    <form name='hoge' class="hoge">
+      参加者を<br />
+      カンマ区切りで<br />
+      入力して下さい
+      <textarea name="member" cols=20 rows=4>たろう,はなこ</textarea><br />
+      <input type="button" onclick="start();" value="開始する" /><br />
+    </from>
+  </div>
+  <div id="info">
+   <h3>順決めレース</h3>
+   発表順などを決めるときに使って下さい．　
+  </div>
+  <!-- ここにゲームが表示されます。 -->
+  </body>
+</html>

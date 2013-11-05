@@ -6,15 +6,20 @@
 -----
 - HTML入門
 (http://dotinstall.com/lessons/basic_html)
-- javascript入門
-(http://dotinstall.com/lessons/basic_javascript)
+今更感があったけど #22 の実態参照は言葉として初めて知った
 - CSS入門
 (http://dotinstall.com/lessons/basic_css)
+position, z-index, background, padding, 疑似クラス
+- javascript入門
+(http://dotinstall.com/lessons/basic_javascript)
 - PHP入門
 (http://dotinstall.com/lessons/basic_php_beginner)
 - PHP入門(応用編)
 (http://dotinstall.com/lessons/basic_php_advanced)
-
+- D3.js入門(全17回)
+- AngularJS(全12回)
+- Sass/SCSS入門
+http://dotinstall.com/lessons/basic_sass
 
 やりかけレッスン
 -----
@@ -48,8 +53,6 @@ HTML5Canvas入門
 http://dotinstall.com/lessons/basic_canvas
 SVG入門
 http://dotinstall.com/lessons/basic_svg
-Sass/SCSS入門
-http://dotinstall.com/lessons/basic_sass
 Compass入門
 http://dotinstall.com/lessons/basic_compass
 シェルスクリプト入門
