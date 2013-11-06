@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.teststyle{
+			border: 5px solid green;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<button>add</button>
+	 <!-- <div id="box" style="width:100px;height:100px;background:red;"></div>
+	<a href="http://jquery.com/" data-hoge="jQuery公式">公式サイト</a>
+	<p>jQueryの練習</p>
+	<input type="text" value="aaa">
+
+	<ul id="main">
+        <li>0</li>
+        <li class="item">1</li>
+        <li class="item">2</li>
+        <li>
+            3
+            <ul id="sub">
+                <li>3-0</li>
+                <li>3-1</li>
+                <li class="item">3-2</li>
+                <li class="item">3-3</li>
+                <li>3-4</li>
+            </ul>
+        </li>
+    </ul> -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script>
+		$(function(){
+			$('button').click(function(){
+				var p =  $('<p>').text('ほげ').addClass('vanish');
+				$(this).before(p);
+			})
+			$('body').on('click', '.vanish', function(){
+				$(this).remove();
+			})
+			//$("#sub li:contains('1')").siblings().css('color', 'red');
+			//$("#sub").css('color', 'red');
+			//$("#main > .item").css('color', 'red');
+			// $("p").addClass('teststyle');
+			// $("p").removeClass('teststyle');
+			//$("#sub li:contains('1')").siblings().hide("slow");
+			
+			// $("a").attr('href','http://iwate-pu.ac.jp');
+			// var a = $("a").attr('href');
+			// console.log(a);
+
+			// var data = $("a").data('hoge');
+			// console.log(data);
+
+			// $("p").text("hoge");
+			// $("p").html('<a href="">aa</a>');
+			//var p = $("input").val('aaaaaaaa');
+			//$("p").empty();
+			//console.log(p);
+
+			//var li = $('<li>').text('just added');
+			// $('ul > li:eq(1)').css('color', 'red');
+			// $('ul > li:eq(1)').after(li);
+			//$('ul#sub').prepend(li);
+			//$('ul > li:eq(1)').fadeout();
+			// $('ul > li:eq(1)').toggle(1000);
+			// $('ul > li:eq(1)').toggle(1000);
+			// $('ul > li:eq(1)').toggle(1000);
+			// $('ul > li:eq(1)').toggle(1000, function(){
+			// 	alert("!!");
+			// });
+			// $('ul > li:eq(2)').mouseover(function(event) {
+			// 	$(this).css('background', 'green');
+			// });
+			// $('ul > li:eq(2)').mouseout(function(event) {
+			// 	$(this).css('background', 'red');
+			// });
+			// $('#box')
+			// 	.mouseover(function() {
+			// 		$(this).css('background', 'green');
+			// 	})			
+			// 	.mouseout(function() {
+			// 		$(this).css('background', 'red');
+			// 	})
+			// 	.mousemove(function(e) {
+			// 		$(this).text(e.pageX);
+			// 	});
+			// $("#box")
+			// 	.mouseover(function() {
+			// 		$(this).css('background', 'green');
+			// 	})
+			// 	.mouseout(function() {
+			// 		$(this).css('background', 'red');
+			// 	})
+			// 	.mousemove(function(e) {
+			// 		$(this).text(e.pageX);
+			// 		$("input").val(e.pageX);
+			// 	});
+			// $("input")
+			// 	.focus(function(event) {
+			// 		$(this).css('background', 'red');
+			// 	})
+			// 	.blur(function(){
+			// 		$(this).css('background', 'orange');
+			// 	});
+		})
+		// > 直下の子要素 
+        //   それ以下の要素
+        // , 複数の要素
+        // + 隣接する要素
+
+		// セレクタ：処理対象となるDOM要素を指定する記法
+        // メソッド：処理
+        // メソッドチェーン
+		
+		//$(document).ready(function(){
+		//});
+		//を
+		//$(function(){
+		//}
+		//と省略可能
+		// $(function(){
+		// 	$('p').css('color','red').hide('slow');
+		// 	$('a').css('text-decoration','none');
+		// });
+	</script>
+</body>
+</html>
