@@ -12,6 +12,7 @@
 position, z-index, background, padding, 疑似クラス
 - javascript入門
 (http://dotinstall.com/lessons/basic_javascript)
+BOM,DOM
 - PHP入門
 (http://dotinstall.com/lessons/basic_php_beginner)
 - PHP入門(応用編)
@@ -20,6 +21,8 @@ position, z-index, background, padding, 疑似クラス
 - AngularJS(全12回)
 - Sass/SCSS入門
 http://dotinstall.com/lessons/basic_sass
+Compass入門
+http://dotinstall.com/lessons/basic_compass
 
 やりかけレッスン
 -----
@@ -53,7 +56,5 @@ HTML5Canvas入門
 http://dotinstall.com/lessons/basic_canvas
 SVG入門
 http://dotinstall.com/lessons/basic_svg
-Compass入門
-http://dotinstall.com/lessons/basic_compass
 シェルスクリプト入門
 http://dotinstall.com/lessons/basic_shellscript
