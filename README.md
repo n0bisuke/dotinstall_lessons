@@ -15,6 +15,8 @@ position, z-index, background, padding, 疑似クラス
 BOM,DOM
 - Javascript入門(Tips集)
 (http://dotinstall.com/lessons/basic_javascript_tips)
+- jQuery入門
+http://dotinstall.com/lessons/basic_jquery_v2
 - PHP入門
 (http://dotinstall.com/lessons/basic_php_beginner)
 - PHP入門(応用編)
@@ -33,8 +35,7 @@ BOM,DOM
 http://dotinstall.com/lessons/basic_css3
 - Bootstrap3.0入門
 http://dotinstall.com/lessons/basic_twitter_bootstrap_v4
-- jQuery入門
-http://dotinstall.com/lessons/basic_jquery_v2
+
 - jQueryUI入門
 http://dotinstall.com/lessons/basic_jquery_ui
 - jQueryプラグイン入門
