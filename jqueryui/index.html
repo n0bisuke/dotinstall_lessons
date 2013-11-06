@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery UI の練習</title>
+	<link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.3.custom.css">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+</head>
+<body>
+
+<div id="box">box</div>
+ 
+<style>
+#box {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+</style>
+ 
+<script>
+$(function() {
+    $('#box').click(function() {
+        $(this).effect("explode", {
+            pieces: 150
+        });
+    });
+});
+</script>
+
+
+<button>click</button>
+ 
+<input type="checkbox" id="check"><label for="check">check!</label>
+ 
+<div id="set">
+<input type="radio" name="radio" id="radio1"><label for="radio1">1</label>
+<input type="radio" name="radio" id="radio2"><label for="radio2">2</label>
+<input type="radio" name="radio" id="radio3"><label for="radio3">3</label>
+</div>
+ 
+<script>
+$(function() {
+    $('button').button();
+    $('#check').button();
+    $('input[type=radio]').button();
+    $('#set').buttonset();
+});
+</script>
+
+
+<div id="accordion">
+ 
+<h3><a href="">Title</a></h3>
+<div>こんにちは。</div>
+ 
+<h3><a href="">Title</a></h3>
+<div>こんにちは。</div>
+ 
+<h3><a href="">Title</a></h3>
+<div>こんにちは。</div>
+ 
+<h3><a href="">Title</a></h3>
+<div>こんにちは。</div>
+ 
+</div>
+ 
+<script>
+$(function() {
+    $('#accordion').accordion();
+});
+</script>
+
+
+<ul id="sortable">
+<li id="item_1">item1</li>
+<li id="item_2">item2</li>
+<li id="item_3">item3</li>
+<li id="item_4">item4</li>
+<li id="item_5">item5</li>
+</ul>
+ 
+<script>
+$(function() {
+    $('#sortable').sortable({
+        cursor: 'move',
+        opacity: 0.5,
+        update: function(event, ui) {
+            console.log($(this).sortable("serialize"));
+        }
+    });
+});
+</script>
+
+<div class="box">box</div>
+<div class="target">target</div>
+
+
+
+<style>
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    margin-bottom: 20px;
+}
+.target {
+    width: 100px;
+    height: 100px;
+    background: pink;
+}
+.hover { background: red; }
+</style>
+ 
+<script>
+$(function() {
+    $('.box').draggable().resizable({
+    	handles: 'all',
+    	aspectRatio: true
+    });
+    // $('.target').droppable({
+    //     accept: '.box',
+    //     hoverClass: 'hover',
+    //     tolerance: 'fit',
+    //     drop: function(event, ui) {
+    //         ui.draggable.clone().appendTo(this);
+    //         console.log('dropped!');
+    //     }
+    // });
+});
+</script>
+</body>
+</html>
