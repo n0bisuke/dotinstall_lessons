@@ -13,48 +13,49 @@ position, z-index, background, padding, 疑似クラス
 - javascript入門
 (http://dotinstall.com/lessons/basic_javascript)
 BOM,DOM
+- Javascript入門(Tips集)
+(http://dotinstall.com/lessons/basic_javascript_tips)
 - PHP入門
 (http://dotinstall.com/lessons/basic_php_beginner)
 - PHP入門(応用編)
 (http://dotinstall.com/lessons/basic_php_advanced)
+- Sass/SCSS入門
+(http://dotinstall.com/lessons/basic_sass)
+- Compass入門
+(http://dotinstall.com/lessons/basic_compass)
 - D3.js入門(全17回)
 - AngularJS(全12回)
-- Sass/SCSS入門
-http://dotinstall.com/lessons/basic_sass
-Compass入門
-http://dotinstall.com/lessons/basic_compass
+
 
 やりかけレッスン
 -----
-CSS3入門
+- CSS3入門
 http://dotinstall.com/lessons/basic_css3
-Bootstrap3.0入門
+- Bootstrap3.0入門
 http://dotinstall.com/lessons/basic_twitter_bootstrap_v4
-Javascript入門(Tips集)
-http://dotinstall.com/lessons/basic_javascript_tips
-jQuery入門
+- jQuery入門
 http://dotinstall.com/lessons/basic_jquery_v2
-jQueryUI入門
+- jQueryUI入門
 http://dotinstall.com/lessons/basic_jquery_ui
-jQueryプラグイン入門
+- jQueryプラグイン入門
 http://dotinstall.com/lessons/basic_jquery_plugin
-UNIXコマンド入門(一般ユーザー編)
+- UNIXコマンド入門(一般ユーザー編)
 http://dotinstall.com/lessons/basic_unix
-MySQL入門
+- MySQL入門
 http://dotinstall.com/lessons/basic_mysql_v2
-WordPress入門
+- WordPress入門
 http://dotinstall.com/lessons/basic_wordpress
-CakePHP入門
+- CakePHP入門
 http://dotinstall.com/lessons/basic_cakephp
-Chrome Developer Tools入門
+- Chrome Developer Tools入門
 http://dotinstall.com/lessons/basic_chrome_dev
-git入門
+- git入門
 http://dotinstall.com/lessons/basic_git
-正規表現入門
+- 正規表現入門
 http://dotinstall.com/lessons/basic_regexp
-HTML5Canvas入門
+- HTML5Canvas入門
 http://dotinstall.com/lessons/basic_canvas
-SVG入門
+- SVG入門
 http://dotinstall.com/lessons/basic_svg
-シェルスクリプト入門
+- シェルスクリプト入門
 http://dotinstall.com/lessons/basic_shellscript
