@@ -11,6 +11,22 @@
 	</style>
 </head>
 <body>
+
+	<!-- <ul id="main">
+        <li>0</li>
+        <li class="item">1</li>
+        <li class="item">2</li>
+        <li>
+            3
+            <ul id="sub">
+                <li>3-0</li>
+                <li>3-1</li>
+                <li class="item">3-2</li>
+                <li class="item">3-3</li>
+                <li>3-4</li>
+            </ul>
+        </li>
+    </ul>  -->
 	<button>add</button>
 	 <!-- <div id="box" style="width:100px;height:100px;background:red;"></div>
 	<a href="http://jquery.com/" data-hoge="jQuery公式">公式サイト</a>
@@ -36,12 +52,16 @@
 	<script>
 		$(function(){
 			$('button').click(function(){
-				var p =  $('<p>').text('ほげ').addClass('vanish');
+				var p =  $('<p>').text('ほげ').css('background','yellow').addClass('vanish');
 				$(this).before(p);
 			})
 			$('body').on('click', '.vanish', function(){
 				$(this).remove();
 			})
+			
+			//https://www.facebook.com/events/1409632885934292
+			//$('.sub_navigation li:eq(1) a').attr('href','https://www.facebook.com/IPU.IS.Lab').text('佐々木研はこちら!');
+
 			//$("#sub li:contains('1')").siblings().css('color', 'red');
 			//$("#sub").css('color', 'red');
 			//$("#main > .item").css('color', 'red');

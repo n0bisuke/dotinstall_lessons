@@ -17,6 +17,10 @@ BOM,DOM
 (http://dotinstall.com/lessons/basic_javascript_tips)
 - jQuery入門
 http://dotinstall.com/lessons/basic_jquery_v2
+- jQueryUI入門
+http://dotinstall.com/lessons/basic_jquery_ui
+- jQueryプラグイン入門
+http://dotinstall.com/lessons/basic_jquery_plugin
 - PHP入門
 (http://dotinstall.com/lessons/basic_php_beginner)
 - PHP入門(応用編)
@@ -25,9 +29,15 @@ http://dotinstall.com/lessons/basic_jquery_v2
 (http://dotinstall.com/lessons/basic_sass)
 - Compass入門
 (http://dotinstall.com/lessons/basic_compass)
-- D3.js入門(全17回)
-- AngularJS(全12回)
-
+- WordPress入門
+http://dotinstall.com/lessons/basic_wordpress
+- UNIXコマンド入門(一般ユーザー編)
+http://dotinstall.com/lessons/basic_unix
+- Chrome Developer Tools入門
+http://dotinstall.com/lessons/basic_chrome_dev
+- D3.js入門 (全17回)
+- AngularJS (全12回)
+- Vagrant入門 (全13回)
 
 やりかけレッスン
 -----
@@ -35,21 +45,10 @@ http://dotinstall.com/lessons/basic_jquery_v2
 http://dotinstall.com/lessons/basic_css3
 - Bootstrap3.0入門
 http://dotinstall.com/lessons/basic_twitter_bootstrap_v4
-
-- jQueryUI入門
-http://dotinstall.com/lessons/basic_jquery_ui
-- jQueryプラグイン入門
-http://dotinstall.com/lessons/basic_jquery_plugin
-- UNIXコマンド入門(一般ユーザー編)
-http://dotinstall.com/lessons/basic_unix
 - MySQL入門
 http://dotinstall.com/lessons/basic_mysql_v2
-- WordPress入門
-http://dotinstall.com/lessons/basic_wordpress
 - CakePHP入門
 http://dotinstall.com/lessons/basic_cakephp
-- Chrome Developer Tools入門
-http://dotinstall.com/lessons/basic_chrome_dev
 - git入門
 http://dotinstall.com/lessons/basic_git
 - 正規表現入門

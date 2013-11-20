@@ -1,0 +1,20 @@
+{
+    "name": "n0bisuke-app",
+    "version": "0.1",
+    "manifest_version": 2,
+    
+    "description": "今いるページの背景色を変えるよ！ with option page",
+ 
+    "permissions": [
+        "tabs", "http://*/*"
+    ],
+    
+    "background": {
+        "scripts": ["background.js"]
+    },
+ 
+    "page_action": {
+        "default_icon": "n0bisuke.jpg",
+        "default_title": "My 5 Extension"
+    }
+}

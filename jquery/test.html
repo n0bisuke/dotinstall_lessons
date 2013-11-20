@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button>add</button>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script>
+		$(function(){
+			$('button').click(function(){
+				var p =  $('<p>').text('ほげ').css('background','yellow').addClass('vanish');
+				$(this).before(p);
+			});
+			$('body').on('click', '.vanish', function(){
+				$(this).remove();
+			});
+		});
+	</script>
+</body>
+</html>
