@@ -1,0 +1,17 @@
+{
+	"name": "もりけん",
+	"version": "0.1",
+	"manifest_version": 2,
+
+	"description": "問題を取得してみるます",
+
+	"permissions":[
+		"tabs", "http://*/*"
+	],
+
+	"browser_action": {
+	 	"default_icon": "n0bisuke.jpg",
+	 	"default_title": "ほげ",
+	 	"default_popup": "popup.html"
+	}
+}
