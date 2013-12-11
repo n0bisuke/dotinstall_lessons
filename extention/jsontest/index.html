@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<!--     <input id="btn_1" type="button" value="データ取得" />
+ -->
+	<div id="result"></div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+    	// var json='{"red":"赤", "blue":"青", "yellow":"黄"}';
+	    // $(document).ready( function() {
+	    //     $("#btn_1").click(function(){
+	    //         $.getJSON(json, function(json){
+	    //             alert("取得したデータ：" + json.blue);
+	    //         });
+	    //     });
+	    // });
+
+		//httpObj = new XMLHttpRequest();
+		//httpObj.open("get", "./data.json", true);
+		// httpObj.onload = function(){
+		// var myData = JSON.parse(this.responseText);
+		// var txt = "";
+		// for (var i=0; i<myData.item.length; i++){
+		// txt = txt + myData.item[i].itemName + "　" + myData.item[i].itemPrice+"円<br>";
+		// }
+		// document.getElementById("result").innerHTML = txt;
+		// }
+		// httpObj.send(null);
+
+		// var data = {
+		//   a:1,
+		//   b:[1,2],
+		//   c:new Date(),
+		//   f:function(a){return a;}
+		// };
+		var json_text = JSON.stringify(data);
+		console.log(json_text);
+		var json_text2 = JSON.stringify(data,null,2);
+		console.log(json_text2);
+    </script>
+</body>
+</html>

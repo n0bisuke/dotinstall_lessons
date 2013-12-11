@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<ul id="demo"></ul>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>
+	$(function(){
+	  $.getJSON("http://n0.x0.to/rskweb/moridai/pasttest/2/2010/.json" , function(data) {
+	    var ulObj = $("#demo");
+	    count = data.response.length;
+	    for(var i = 0; i < count; i++) {
+	    	var mes = (i+1) +":"+ data.response[i].MoridaiQuestion.question; 
+	    	ulObj.append($("<li>").text(mes));
+	    }
+	  });
+	});
+	</script>
+</body>
+</html>
